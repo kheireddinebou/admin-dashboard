@@ -1,0 +1,78 @@
+.single {
+  
+    .acount-informations {
+      padding: 20px;
+      color: gray;
+
+      .top {
+        display: flex;
+        gap: 20px;
+
+        .left {
+          flex: 1;
+          box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+          padding: 20px;
+          position: relative;
+          .title {
+            color: rgb(168, 168, 168);
+            font-size: 24px;
+            font-weight: 500;
+            margin: 5px 10px 20px 10px;
+          }
+
+          button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 0 0 0 5px;
+            padding: 10px;
+            background-color: lightblue;
+            color: blue;
+          }
+
+          .user-info {
+            display: flex;
+            gap: 20px;
+
+            .user-info-img {
+              width: 130px;
+              height: 130px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+            .user-details {
+              .user-name {
+                font-size: 26px;
+                font-weight: bold;
+                margin-bottom: 25px;
+              }
+
+              .item {
+                font-size: 18px;
+                margin-bottom: 20px;
+              }
+            }
+          }
+        }
+
+        .right {
+          flex: 2;
+          box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+        }
+      }
+
+      .bottom {
+        margin: 20px 0;
+        box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.3);
+        padding: 20px;
+
+        .title {
+          color: rgb(168, 168, 168);
+          font-size: 24px;
+          font-weight: 500;
+          margin: 5px 10px 20px 10px;
+        }
+      }
+    }
+  
+}

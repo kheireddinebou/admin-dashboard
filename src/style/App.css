@@ -1,0 +1,35 @@
+/* Global Styles */
+
+* {
+    font-family: "Nunito", sans-serif;
+    padding: 0;
+    margin: 0;
+  }
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar{
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   object-fit: cover;
+}
+
+
+.Link{
+    text-decoration: none;
+}
+
+.App{
+    display: flex;
+}
+.appContainer{
+    flex: 6;
+}

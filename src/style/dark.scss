@@ -1,0 +1,27 @@
+$bgColor: #222;
+$colorPrimary: lightgray;
+$colorSecondary: #999;
+
+.App.dark {
+  background-color: $bgColor;
+  color: $colorPrimary;
+  Table *,
+  .sidebar,
+  .navbar *,
+  .ListTable * {
+    background-color: $bgColor;
+    color: $colorPrimary;
+    .tableCell {
+      color: $colorSecondary;
+    }
+
+    .single {
+        .user-details.user-name {
+        color: $colorPrimary!important;
+      }
+    }
+  }
+  input{
+    color: #fff;
+  }
+}

@@ -1,0 +1,16 @@
+
+
+.tabelCellWrapper{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.Approved{
+    color: green!important;
+    background-color: lightgreen;
+}
+.Pending{
+    color: red!important;
+    background-color: pink;
+}

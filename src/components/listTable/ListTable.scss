@@ -1,0 +1,43 @@
+.ListTable {
+  height: 600px;
+  width: 100%;
+
+  .cellStatus {
+    padding: 5px;
+    border-radius: 5px;
+    &.active {
+      color: green !important;
+      background-color: lightgreen;
+    }
+    &.passive {
+      color: red !important;
+      background-color: pink;
+    }
+    &.pending {
+      color: yellow !important;
+      background-color: gold;
+    }
+  }
+
+  .cellButtons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .view-button {
+      padding: 5px;
+      color: blue;
+      border: 2px solid lightblue;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .delete-button {
+      padding: 5px;
+      color: crimson;
+      border: 2px solid pink;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
